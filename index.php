@@ -105,3 +105,43 @@ $faq = [
     <!-- /#site_main -->
 </body>
 </html>
+
+<style>
+    /* common_general_rules */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--blue: #0d6efd;
+	--gray: #5f6368;
+}
+/* /common_general_rules */
+
+/* #site_header */
+.row > img {
+	width: 10%;
+}
+
+.nav-link {
+	padding: 0 !important;
+	margin: 0 1rem;
+	color: var(--gray) !important;
+	font-size: 20px;
+}
+
+.nav-link:hover {
+	cursor: pointer;
+	color: var(--blue) !important;
+	border-bottom: 5px solid var(--blue) !important;
+}
+/* /#site_header */
+
+/* #site_main */
+#site_main {
+	margin: 5rem 0;
+}
+/* /#site_main */
+</style>
